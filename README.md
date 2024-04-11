@@ -4,10 +4,10 @@
 
 1. Clone o repositório
 
-2. Instale as dependências:  
+2. Abra o terminal, acesse o diretório da aplicação e instale as dependências:  
 `npm install`
 
-3. Abra o terminal e execute a aplicação:  
+3. Execute a aplicação:  
 `npm start`
 
 4. Para verificar a elegibilidade, faça uma requisção para rota abaixo:  
