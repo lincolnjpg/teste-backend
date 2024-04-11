@@ -15,3 +15,5 @@
 
 6. Para testar a aplicação, abra o terminal e execute o comando abaixo:  
 `npm test`
+
+Some text
