@@ -1,0 +1,22 @@
+{
+  "name": "lemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "APP_PORT=3000 node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.12.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}

@@ -1,0 +1,60 @@
+// classes de consumo
+
+const CLASSE_DE_CONSUMO_RESIDENCIAL = 'residencial';
+const CLASSE_DE_CONSUMO_INDUSTRIAL = 'industrial';
+const CLASSE_DE_CONSUMO_COMERCIAL = 'comercial';
+const CLASSE_DE_CONSUMO_RURAL = 'rural';
+const CLASSE_DE_CONSUMO_PODER_PUBLICO = 'poderPublico';
+
+// modalidades tarifárias
+
+const MODALIDADE_TARIFARIA_AZUL = 'azul';
+const MODALIDADE_TARIFARIA_VERDE = 'verde';
+const MODALIDADE_TARIFARIA_BRANCA = 'branca';
+const MODALIDADE_TARIFARIA_CONVENCIONAL = 'convencional';
+
+// tipos de conexão
+
+const TIPO_DE_CONEXAO_MONOFASICO = 'monofasico';
+const TIPO_DE_CONEXAO_BIFASICO = 'bifasico';
+const TIPO_DE_CONEXAO_TRIFASICO = 'trifasico';
+
+// consumo mínimo para elegibilidade
+
+const CONSUMO_MINIMO_MONOFASICO = 400;
+const CONSUMO_MINIMO_BIFASICO = 500;
+const CONSUMO_MINIMO_TRIFASICO = 750;
+
+// razões para inelegibilidade
+
+const CLASSE_DE_CONSUMO_NAO_ACEITA = 'Classe de consumo não aceita';
+const MODALIDADE_TARIFARIA_NAO_ACEITA = 'Modalidade tarifária não aceita';
+const CONSUMO_MINIMO_NAO_ACEITO = 'Consumo muito baixo para tipo de conexão';
+
+// erros da aplicação
+
+const HISTORICO_DE_CONSUMO_VAZIO = 'O histórico de consumo não pode estar vazio';
+const CONSUMO_TOTAL_INVALIDO = 'O consumo total não pode ser igual a zero';
+
+module.exports = {
+    CLASSE_DE_CONSUMO_RESIDENCIAL,
+    CLASSE_DE_CONSUMO_INDUSTRIAL,
+    CLASSE_DE_CONSUMO_COMERCIAL,
+    CLASSE_DE_CONSUMO_RURAL,
+    CLASSE_DE_CONSUMO_PODER_PUBLICO,
+    MODALIDADE_TARIFARIA_AZUL,
+    MODALIDADE_TARIFARIA_VERDE,
+    MODALIDADE_TARIFARIA_BRANCA,
+    MODALIDADE_TARIFARIA_CONVENCIONAL,
+    TIPO_DE_CONEXAO_MONOFASICO,
+    TIPO_DE_CONEXAO_BIFASICO,
+    TIPO_DE_CONEXAO_TRIFASICO,
+    CONSUMO_MINIMO_MONOFASICO,
+    CONSUMO_MINIMO_BIFASICO,
+    CONSUMO_MINIMO_TRIFASICO,
+    CLASSE_DE_CONSUMO_NAO_ACEITA,
+    MODALIDADE_TARIFARIA_NAO_ACEITA,
+    CONSUMO_MINIMO_NAO_ACEITO,
+    HISTORICO_DE_CONSUMO_VAZIO,
+    CONSUMO_TOTAL_INVALIDO,
+}
