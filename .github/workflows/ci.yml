@@ -1,6 +1,6 @@
 name: Teste Backend CI
 
-on:
+on: workflow_dispatch
   pull_request:
     branches:
       - main
